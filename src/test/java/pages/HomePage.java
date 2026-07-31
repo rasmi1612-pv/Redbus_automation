@@ -77,6 +77,7 @@ public class HomePage {
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", date);
     }
 
+    //search functionality
     public void clickSearch() {
     	 wait.until(ExpectedConditions.elementToBeClickable(searchBtn)).click();
     }
