@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Redbus Suite">
+    <test name="Redbus Test">
+        <classes>
+            <class name="tests.RedBusTest"/>
+        </classes>
+  <listeners>
+    <listener class-name="utils.TestListeners"/>
+</listeners>
+    </test>
+</suite>
